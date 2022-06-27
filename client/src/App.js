@@ -24,7 +24,7 @@ class App extends Tasks {
               value={this.state.currentTask}
               required={true}
               onChange={this.handleChange}
-              placeholder="Add New TO-DO"
+              placeholder="Ajouter une tâche"
             />
             <Button
               style={{ height: "40px" }}
